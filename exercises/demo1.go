@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	s1 := "hello沙河小王子"
+	str := "hello沙河小王子"
 	var count int
-	for _, i := range s1 {
+	for _, i := range str {
 		if i > 256 {
 			count++             //如果字符的十进制ASCII码值大于256，计数加一
 			fmt.Printf("%c", i) //打印出汉字
