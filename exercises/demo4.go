@@ -8,7 +8,7 @@ import (
 
 func main() {
 	var elementSum int
-	elementArray := []int{1, 3, 5, 7, 8}
+	elementArray := [...]int{1, 3, 5, 7, 8}
 	for _, element := range elementArray {
 		elementSum += element
 	}
