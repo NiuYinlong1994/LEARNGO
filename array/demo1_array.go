@@ -1,3 +1,6 @@
+//数组的定义:
+//var 数组变量名 [元素数量]T
+
 package main
 
 import (
